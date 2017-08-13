@@ -244,6 +244,46 @@ section.details h3
     font-size:130%
 }
 
+/*Table-List*/
+table
+{
+    text-align:left
+}
+
+table tr td div.circle-container i
+{
+    color:white
+}
+
+table tr td div.circle-container
+{
+    background:#2E323A;
+    border-radius:190%;
+    width:30px;
+    margin:auto;
+    text-align:center
+}
+
+table tr td h4
+{
+    color:#E97770
+}
+
+table tr td div.circle-container, table tr td h4
+{
+    display:inline-block
+}
+
+td.td-i
+{
+    width:50px
+}
+
+td.td-word
+{
+    width:350px
+}
+
 
 
 
