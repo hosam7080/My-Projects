@@ -7,6 +7,12 @@ body
     letter-spacing:1.5px
 }
 
+figure
+{
+    margin:0;
+    display:inline-block
+}
+
 .container
 {
     width:80%;
@@ -15,14 +21,15 @@ body
 
 .sec-head
 {
-    display:inline-block;
+    display:block;
     border:.5px solid #424242;
     border-bottom:0;
+    margin:auto;
+    width:390px;
+    height:80px;
     position:absolute;
     top:-70px;
-    left:38%;
-    width:390px;
-    height:80px
+    left:38%
 }
 
 .sec-head span
@@ -39,7 +46,6 @@ body
 {
     width:230px;
     height:65px;
-    margin:auto;
     background:none;
     padding:10px;
     border:0;
@@ -47,19 +53,12 @@ body
     letter-spacing:3px;
     font-weight:bold;
     border-radius:3%;
-    display:block
+    display:inline-block
 }
 
 .general-button:hover
 {
     cursor:pointer
-}
-
-
-figure
-{
-    margin:0;
-    display:inline-block
 }
 
 /*Reset heads*/
@@ -119,17 +118,15 @@ header nav ul li
 header h1
 {
     color:whitesmoke;
-    position:absolute;
-    top:40%;
-    left:40%
+    margin:auto;
+    padding-top:170px
 }
 
 header h5
 {
     color:#757575;
-    position:absolute;
-    top:50%;
-    left:37.5%
+    margin:auto;
+    padding-top:20px
 }
 
 
@@ -199,7 +196,9 @@ a.special-link:hover
 button#proceed
 {
     background:#2E323A;
-    margin-top:50px
+    margin:auto;
+    margin-top:50px;
+    display:block 
 }
 
 
@@ -207,7 +206,6 @@ button#proceed
 section.details
 {
     background:#fff;
-    height:1150px;
     position:relative
 }
 
@@ -222,68 +220,87 @@ section.details>div.sec-head span
     color:#000
 }
 
-/*figure*/
 section.details figure
 {
-    margin:120px auto auto auto
+    margin-top:100px
 }
 
-section.details figure figcaption
+section.details figcaption
 {
-    margin-top:70px;
-    font-size:35px;
-    font-weight:bolder; 
-    color:#484D55
+    font-size:30px;
+    margin-top:90px;
+    color:#484D55;
+    font-weight:bolder;
+    letter-spacing:2px
 }
 
-section.details h3
+section.details h4
 {
-    color:#B1B4BF;
-    margin-top:50px;
+    margin-top:45px;
+    color:#B1BBD1;
+    letter-spacing:2px;
     font-weight:lighter;
-    font-size:130%
+    font-size:120%
 }
 
-/*Table-List*/
-table
+section.details div.list-in-details
 {
-    text-align:left
-}
-
-table tr td div.circle-container i
-{
-    color:white
-}
-
-table tr td div.circle-container
-{
-    background:#2E323A;
-    border-radius:190%;
-    width:30px;
+    width:95%;
     margin:auto;
-    text-align:center
+    text-align:left;
+    padding:40px;
+    box-sizing:border-box 
 }
 
-table tr td h4
+section.details div.list-in-details div.hr-maker
 {
-    color:#E97770
+    display:inline-block;
+    width:100%
 }
 
-table tr td div.circle-container, table tr td h4
+div.hr-maker hr
+{
+    width:100%;
+    border-top:none
+}
+
+section.details div.list-in-details div.list-items
+{
+    width:45%;
+    box-sizing:border-box;
+    display:inline-block;
+    padding:40px
+}
+
+section.details div.list-in-details div.list-items i, section.details div.list-in-details div.list-items h3
 {
     display:inline-block
 }
 
-td.td-i
+section.details div.list-in-details div.list-items i
 {
-    width:50px
+    font-size:35px;
+    padding:15px;
+    background:#2E323A;
+    color:#fff;
+    border-radius:100%
 }
 
-td.td-word
+section.details div.list-in-details div.list-items h3
 {
-    width:350px
+    color:#E97770;
+    font-weight:bolder;
+    letter-spacing:2px;
+    margin-left:15px
 }
 
+section.details div.list-in-details div.list-items p
+{
+    color:#9E9499;
+    margin-left:85px;
+    line-height:1.8;
+    letter-spacing:2px 
+}
 
 
 
