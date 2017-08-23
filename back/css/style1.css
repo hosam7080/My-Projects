@@ -22,14 +22,14 @@ figure
 .sec-head
 {
     display:block;
-    border:.5px solid #424242;
     border-bottom:0;
     margin:auto;
     width:390px;
-    height:80px;
+    height:60px;
     position:absolute;
-    top:-70px;
-    left:38%
+    top:-60px;
+    left:38%;
+    background-color:inherit 
 }
 
 .sec-head span
@@ -206,7 +206,8 @@ button#proceed
 section.details
 {
     background:#fff;
-    position:relative
+    position:relative;
+    height:1800px
 }
 
 /*Give Head Of The Section The Same Color Of The Section Without Innvolving Other Divs*/
@@ -300,6 +301,96 @@ section.details div.list-in-details div.list-items p
     margin-left:85px;
     line-height:1.8;
     letter-spacing:2px 
+}
+
+section.details button#get-started
+{
+    background:#E5756E;
+    width:250px;
+    text-transform:uppercase;
+    margin-right:30px 
+}
+
+section.details button#more-info
+{
+    border:.5px solid #9E9499;
+    color:#606167;
+    text-transform:uppercase
+}
+
+section.details button#get-started, section.details button#more-info
+{
+    display:inline-block
+}
+
+/*Forth Section 'The Endorsements'*/
+section.endors
+{
+    background:#F2F2F2;
+    position:relative;
+    height:700px
+}
+
+section.endors div.sec-head span
+{
+    color:#484D55;
+    text-transform:uppercase 
+}
+
+table#endors-table
+{
+    display:inline-block;
+    margin-top:100px
+}
+
+table#endors-table tr td figure img
+{
+    background-color:#fff;
+    padding:10px
+}
+
+table#endors-table tr td figure figcaption a
+{
+    color:#E97770;
+    display:inline-block;
+    margin-top:35px;
+    font-size:18px;
+    font-weight:bolder
+}
+
+table#endors-table tr td figure p
+{
+    margin:auto;
+    margin-top:25px;
+    line-height:1.8;
+    font-size:15px;
+    font-weight:100;
+    color:#919499;
+    width:80%
+}
+
+table#endors-table tr td figure button.learn-more-button
+{
+    display:inline-block;
+    background:#E0726C;
+    margin:auto;
+    margin-top:50px;
+    width:200px;
+    padding:20px;
+    font-size:15px;
+    text-transform:uppercase
+}
+
+/*Section Five*/
+section.rest-Ofit
+{
+    position:relative;
+    background:#272A33
+}
+
+section.rest-Ofit div.sec-head span
+{
+    text-transform:uppercase
 }
 
 
