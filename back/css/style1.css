@@ -127,13 +127,17 @@ header h1
 {
     color:whitesmoke;
     margin:auto;
-    padding-top:170px
+    padding-top:170px;
+    letter-spacing:5px;
+    font-weight:800
 }
 
 header h5
 {
     color:#757575;
     margin:auto;
+    font-size:17px;
+    font-weight:lighter;
     padding-top:20px
 }
 
@@ -172,7 +176,11 @@ section.introduction p
     font-size:40px;
     line-height:1.7;
     font-weight:bold;
-    padding:40px
+    padding:40px;
+    border-top-right-radius:8px;
+    border-top-left-radius:8px;
+    border-bottom-right-radius:8px;
+    border-bottom-left-radius:8px
 }
 
 section.introduction h5
@@ -569,6 +577,49 @@ section.rest-Ofit div#contact-info div.contact-list-items.hr-maker2 hr
     text-align:left;
     border-color:#32353D;
     border-top:none
+}
+
+/*copy right*/
+section.rest-Ofit div#copyright-st
+{
+    margin:auto;
+    margin-top:150px;
+    margin-bottom:150px;
+    border: .5px solid #32353D;
+    width:300px;
+    padding:10px 5px;
+    border-top-right-radius:4px;
+    border-top-left-radius:4px;
+    border-bottom-right-radius:4px;
+    border-bottom-left-radius:4px
+}
+
+section.rest-Ofit div#copyright-st h5
+{
+    display:inline-block;
+    color:#7E9499;
+    height:25px;
+    padding-top:10px
+}    
+
+section.rest-Ofit div#copyright-st h5:first-of-type
+{
+    border-right:.5px solid #32353D;
+    padding-right:10px;
+    margin-right:10px
+}
+
+section.rest-Ofit div#copyright-st span a
+{
+    color:#7E9499;
+    text-decoration:underline;
+    font-size:14px 
+}
+
+section.rest-Ofit div#copyright-st span a:hover
+{
+    color:#fff;
+    text-decoration:none
 }
 
 
