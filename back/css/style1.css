@@ -48,17 +48,25 @@ figure
     height:65px;
     background:none;
     padding:10px;
-    border:0;
     color:white;
     letter-spacing:3px;
     font-weight:bold;
-    border-radius:3%;
+    border:none;
+    border-top-right-radius:8px;
+    border-top-left-radius:8px;
+    border-bottom-right-radius:8px;
+    border-bottom-left-radius:8px;
     display:inline-block
 }
 
 .general-button:hover
 {
     cursor:pointer
+}
+
+.clear
+{
+    clear:both
 }
 
 /*Reset heads*/
@@ -388,10 +396,181 @@ section.rest-Ofit
     background:#272A33
 }
 
+div.container
+{
+    overflow:hidden 
+}
+
 section.rest-Ofit div.sec-head span
 {
     text-transform:uppercase
 }
+
+section.rest-Ofit h1
+{
+    color:#fff;
+    display:inline-block;
+    margin-top:150px;
+    font-weight:bolder;
+    font-size:35px
+}
+
+section.rest-Ofit p
+{
+    color:#ACB4B9;
+    margin-top:40px;
+    font-size:22px;
+    line-height:1.8
+}
+
+section.rest-Ofit div.container>hr
+{
+    margin-top:130px;
+    border-color:#32353D;
+    border-top:none
+}
+
+section.rest-Ofit form, section.rest-Ofit div#contact-info
+{
+    display:inline-block;
+    width:47.5%;
+    margin-top:100px
+}
+
+section.rest-Ofit form
+{
+    float:left;
+    text-align:left
+}
+
+section.rest-Ofit div#contact-info
+{
+    float:right
+}
+
+section.rest-Ofit form input[type="text"], section.rest-Ofit form input[type="email"]
+{
+    display:inline-block;
+    width:47%;
+    height:50px;
+    background:#CCC;
+    border:none;
+    border-top-right-radius:8px;
+    border-top-left-radius:8px;
+    border-bottom-right-radius:8px;
+    border-bottom-left-radius:8px
+}
+
+section.rest-Ofit form input[type="email"]
+{
+    margin-left:3%
+}
+
+section.rest-Ofit form textarea
+{
+    margin-top:30px;
+    width:98%;
+    height:150px;
+    background:#ccc;
+    padding:15px 0;
+    border:none;
+    border-top-right-radius:8px;
+    border-top-left-radius:8px;
+    border-bottom-right-radius:8px;
+    border-bottom-left-radius:8px
+}
+
+section.rest-Ofit form input.form-button
+{
+    margin:0;
+    width:35%;
+    text-transform:uppercase;
+    font-size:15px;
+    margin-top:40px;
+    font-weight:bolder
+}
+
+section.rest-Ofit form input[type="submit"]
+{
+    background:#E8766F
+}
+
+section.rest-Ofit form input[type="reset"]
+{
+    border:.5px solid #56585F;
+    margin-left:20px
+}
+
+/*Contact-info*/
+div#contact-info
+{
+    text-align:left;
+    overflow:hidden 
+}
+
+section.rest-Ofit div#contact-info div.contact-list-items
+{
+    display:inline-block;
+    width:45%;
+    float:left
+}
+
+
+section.rest-Ofit div#contact-info div.contact-list-items.rightDiv-get-margin-left
+{
+    margin-left:20px
+}
+
+section.rest-Ofit div#contact-info div.contact-list-items.hr-maker2
+{
+    float:none
+}
+
+section.rest-Ofit div#contact-info div.contact-list-items i, section.rest-Ofit div#contact-info div.contact-list-items h4
+{
+    display:inline-block
+}
+
+section.rest-Ofit div#contact-info div.contact-list-items span
+{
+    display:block;
+    color:#7E9499;
+    margin-left:65px;
+    margin-top:20px;
+    font-size:14.5px
+}
+
+section.rest-Ofit div#contact-info div.contact-list-items i
+{
+    color:#fff;
+    padding:10px;
+    background:#3A3F45;
+    font-size:22px;
+    border-radius:100%
+}
+
+section.rest-Ofit div#contact-info div.contact-list-items h4
+{
+    color:#E97770;
+    font-size:19px;
+    margin-left:15px;
+    margin-bottom:20px
+}
+
+section.rest-Ofit div#contact-info section#hr-maker2
+{
+    margin:50px 0 30px 0
+}
+
+section.rest-Ofit div#contact-info div.contact-list-items.hr-maker2 hr
+{
+    width:90%;
+    margin-left:0;
+    text-align:left;
+    border-color:#32353D;
+    border-top:none
+}
+
 
 
 
